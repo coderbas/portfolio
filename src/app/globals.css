@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&family=Fira+Code:wght@400;500&display=swap');
+
+/* Optional: If you want to style scrollbars in dark mode */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background-color: rgba(75, 85, 99, 0.5); /* gray-600/50 */
+  border-radius: 4px;
+}
+html {
+  transition: background-color 0.3s, color 0.3s;
+}
+html {
+  scroll-behavior: smooth;
+}
+/* globals.css */
+.hero-bg-gradient {
+  background: linear-gradient(
+    135deg,
+    rgba(29, 78, 216, 0.7),
+    rgba(79, 70, 229, 0.7)
+  );
+}
+
+.hero-bg-gradient::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: url('/images/noise.png'); /*  low-opacity PNG noise */
+  opacity: 0.05;
+  mix-blend-mode: overlay;
+}
