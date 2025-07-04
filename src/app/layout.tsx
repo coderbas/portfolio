@@ -4,7 +4,7 @@ import Providers from './Providers';
 import NavLinks from './components/NavLinks';
 import ThemeToggle from './components/ThemeToggle';
 import FooterNails from './components/FooterNails';
-
+import Link from 'next/link';
 
 export const metadata = {
   title: 'Basit Buhari | Portfolio',
@@ -25,12 +25,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <header className="fixed w-full z-50 bg-white/80 dark:bg-black/80 backdrop-blur-md transition-colors duration-300">
   <div className="max-w-7xl mx-auto flex items-center justify-between px-6 py-4">
     {/* Instead of plain text, show logo + name */}
-    <a href="/" className="flex items-center space-x-2">
+    <Link href="/" className="flex items-center space-x-2">
       <img src="/logo.svg" alt="BasitB Logo" className="h-8 w-8" />
       <span className="text-2xl font-bold font-sans text-gray-900 dark:text-white">
         BasitB
       </span>
-    </a>
+    </Link>
     <NavLinks />
     <ThemeToggle />
   </div>
