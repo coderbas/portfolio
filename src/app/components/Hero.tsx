@@ -32,7 +32,7 @@ export default function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
           >
-            Hi, I’m Basit Buhari.
+            Hi, I’m AbdulBasit Buhari.
           </motion.h1>
           <motion.p
             className="text-lg md:text-xl text-gray-100 max-w-lg font-sans"

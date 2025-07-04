@@ -14,12 +14,12 @@ export default function About() {
   // Build an array of timeline items (education + experience)
   const timelineItems = [
     {
-      date: '2021 – Present',
+      date: '2021 – 2025',
       title: 'B.Sc. in Computer Science',
       subtitle: 'University of Wollongong in Dubai',
       description:
-        "Pursuing a Bachelor's degree in CS with a focus on cybersecurity, data structures, and software architecture. "
-      + "Expected graduation: Spring 2025.",
+        "Pursued a Bachelor's degree in CS with a focus on cybersecurity, data structures, and software architecture. "
+      + "Graduated: Spring 2025 as a Distinction Student.",
     },
     {
       date: 'Jan 2025 – Mar 2025',
